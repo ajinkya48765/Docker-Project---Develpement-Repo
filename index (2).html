@@ -49,7 +49,88 @@
 	transform: translate3d(-50%,-50%,0);
 	}
 
+</style>
 
+<style >
+	.button {
+	background-color: purple; /* Green */
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	}
+
+	.button1:hover {
+	background-color: white; 
+	color: black; 
+	border: 2px solid purple;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+	}
+
+	.button1 {
+	width: 9%;
+	background-color: purple;
+	color: white;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	position: absolute;
+	color: #f9f1e9;
+	top: 70%;
+	left: 40%;
+	text-align: center;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+	}
+
+	.button4:hover {
+	background-color: white; 
+	color: black; 
+	border: 2px solid purple;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+	}
+
+	.button4 {
+	width: 9%;
+	background-color: purple;
+	color: white;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	position: absolute;
+	color: #f9f1e9;
+	top: 70%;
+	left: 50%;
+	text-align: center;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+	}
+
+	.button5:hover {
+	background-color: white; 
+	color: black; 
+	border: 2px solid purple;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+	}
+
+	.button5{
+	width: 9%;
+	background-color: purple;
+	color: white;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	position: absolute;
+	color: #f9f1e9;
+	top: 70%;
+	left: 60%;
+	text-align: center;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+	}
 </style>
 
 
@@ -63,11 +144,13 @@
 			<div class="content">
 				<div id="large-header" class="large-header">
 					<canvas id="demo-canvas"></canvas>
-					
-					<h1 class="title"> hello</h1>
 
 					<p class = "text">Covid 19</p>
 					<p class = "text2" align="center">Pendamic Statistics</p>
+
+					<a type="button" class="button button1" href = "confirmed.html">Confirmed</a>
+					<a type="button" class="button button4" href = "cured.html">Cured</a>
+					<a type="button" class="button button5" href = "deaths.html">Deaths</a>
 				</div>
 		</div><!-- /container -->
 		<script src="js/TweenLite.min.js"></script>
